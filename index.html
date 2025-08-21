@@ -81,7 +81,7 @@
                     <div class="about-stats">
                         
                         <div class="stat">
-                            <h3>2+</h3>
+                            <h3>4+</h3>
                             <p>Years delivering systems</p>
                         </div>
                         <div class="stat">
@@ -89,8 +89,8 @@
                             <p>Projects & prototypes</p>
                         </div>
                         <div class="stat">
-                            <h3>E2E</h3>
-                            <p>Embedded ↔ Full‑stack</p>
+                            <h3>B2B, B2C</h3>
+                            <p>Embedded and Full‑stack</p>
                         </div>
                     </div>
                 </div>
@@ -105,9 +105,15 @@
             <div class="skills-grid">
                 
                 <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">C</span><span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
                     <h3>Embedded & Protocols</h3>
                     <div class="skill-items">
-                        <span class="skill-tag">C99</span><span class="skill-tag">UART</span><span class="skill-tag">SPI</span><span class="skill-tag">I2C</span><span class="skill-tag">MODBUS</span><span class="skill-tag">BLE</span><span class="skill-tag">HCI</span><span class="skill-tag">SoftDevice</span><span class="skill-tag">BlueZ</span><span class="skill-tag">ZigBee</span>
+                        <span class="skill-tag">UART</span><span class="skill-tag">SPI</span><span class="skill-tag">I2C</span><span class="skill-tag">MODBUS</span><span class="skill-tag">BLE</span><span class="skill-tag">HCI</span><span class="skill-tag">SoftDevice</span><span class="skill-tag">BlueZ</span><span class="skill-tag">ZigBee</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -137,7 +143,7 @@
                 <div class="skill-category">
                     <h3>Systems</h3>
                     <div class="skill-items">
-                        <span class="skill-tag">Windows</span><span class="skill-tag">Unix</span><span class="skill-tag">RTOS</span><span class="skill-tag">Nordic Zephyr/SDK</span>
+                        <span class="skill-tag">Windows</span><span class="skill-tag">Linux</span><span class="skill-tag">Unix based systems</span><span class="skill-tag">RTOS's</span><span class="skill-tag">Nordic Zephyr</span><span class="skill-tag">PiOS</span>
                     </div>
                 </div>
             </div>
@@ -156,9 +162,9 @@
                     </div>
                     <div class="project-content">
                         <h3>Hci python library</h3>
-                        <p>BLE HCI Tester: Python tooling and reference firmwares to validate BLE devices end‑to‑end over UART—scan/connect, GATT discovery, data paths, and secure pairing.</p>
+                        <p>BLE HCI Python lib: Python library to asynchronously control BLE central over HCI commands interface over UART with main BLE Central functionality — scan, connect, disconnect, service/chracteristic discovery, pairing, bonding in Legacy and LESC modes, notifications/indiocations support, read/write from a chracteristics, set and update connection parametres(MTU, Data Length)    and many more fancy features.</p>
                         <div class="project-tech">
-                            <span>Python</span><span>AsyncIO</span><span>Threading</span><span>pyserial</span><span>BLE HCI</span><span>UART</span><span>Nordic nRF52840</span>
+                            <span>Python</span><span>AsyncIO</span><span>Threading</span><span>pyserial</span><span>BLE</span><span>HCI</span><span>UART</span><span>Nordic nRF52840</span>
                         </div>
                         <div class="project-links">
                             <a href="" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
@@ -174,7 +180,7 @@
                         <h3>Ble lantern</h3>
                         <p>Battery‑powered BLE firmware on nRF52832 providing a custom service, user‑friendly LED control, scheduled measurements, persistent settings, and secure OTA DFU—built for reliable, field‑ready operation.</p>
                         <div class="project-tech">
-                            <span>C</span><span>nRF52832</span><span>SoftDevice S113</span><span>nRF5 SDK 17.1</span><span>BLE GATT</span><span>Notifications</span><span>DFU</span><span>SEGGER RTT</span>
+                            <span>C99</span><span>Nordic SDK</span><span>SoftDevice</span><span>BLE</span><span>UART</span><span>DFU OTA</span><span>Nordic nRF52840</span><span>PWM</span><span>Low Power consumption</span>
                         </div>
                         <div class="project-links">
                             <a href="" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
@@ -188,7 +194,7 @@
                     </div>
                     <div class="project-content">
                         <h3>SymbioseBot – Telegram bot</h3>
-                        <p>A Telegram bot that matches learners with volunteer teachers in the same city. Handles applications, admin moderation, city/skill matching, double‑confirmation contact sharing, reminders, referrals, and feedback—built for 24/7 operation.</p>
+                        <p>A Telegram bot that matches learners with volunteer teachers in the same city. Handles applications, admin moderation, city/skill matching, double‑confirmation contact sharing, reminders, referrals, and feedback—built for sutainable 24/7 operation on a system with limited resources (Raspberry pi Zero 2 etc).</p>
                         <div class="project-tech">
                             <span>Python</span><span>asyncio</span><span>aiogram v3</span><span>PostgreSQL</span><span>asyncpg</span><span>systemd</span><span>logging</span>
                         </div>
@@ -237,7 +243,7 @@
                     <div class="form-group">
                         <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                     </div>
-                    <input type="hidden" name="_next" value="thank-you.html">
+                    <input type="hidden" name="_redirect" value="">
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
@@ -247,7 +253,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Nikita Novikov. All rights reserved.</p>
+            <p>&copy; 2025 Nikita Novikov. All rights reserved. Developepment in progress</p>
         </div>
     </footer>
 
@@ -256,8 +262,44 @@
         // Secure form endpoint configuration
         (function() {
             const endpoint = atob('aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vZi9teXpwb2Vycg==');
-            if (endpoint) {
-                document.getElementById('contact-form').action = endpoint;
+            const form = document.getElementById('contact-form');
+            if (endpoint && form) {
+                form.action = endpoint;
+            }
+
+            // Dynamically set absolute redirect URL for Formspree
+            const redirectInput = document.querySelector('input[name="_redirect"]');
+            if (redirectInput) {
+                try {
+                    const isFile = window.location.protocol === 'file:';
+                    const origin = isFile ? 'file://' : window.location.origin;
+                    const basePath = window.location.pathname.replace(/index\.html?$/, '');
+                    const redirectUrl = `${origin}${basePath}thank-you.html`;
+                    redirectInput.value = redirectUrl;
+                } catch (e) {
+                    // Fallback to relative path
+                    redirectInput.value = 'thank-you.html';
+                }
+            }
+
+            // When opening via file://, Formspree can't redirect to file URLs.
+            // Intercept submit to navigate locally after a POST.
+            if (window.location.protocol === 'file:' && form) {
+                form.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    try {
+                        const formData = new FormData(form);
+                        await fetch(form.action, {
+                            method: 'POST',
+                            body: formData,
+                            headers: { 'Accept': 'application/json' }
+                        });
+                    } catch (_) {
+                        // Ignore network errors during local testing
+                    } finally {
+                        window.location.href = 'thank-you.html';
+                    }
+                });
             }
         })();
     </script>
