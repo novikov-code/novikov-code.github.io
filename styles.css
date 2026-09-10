@@ -33,6 +33,7 @@ body {
     --white: #ffffff;
     --light-gray: #f8f9fa;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-pill: 0 5px 12px -4px rgba(160, 115, 10, 0.5);
     --shadow-hover: 0 8px 25px rgba(255, 215, 0, 0.3);
 }
 
@@ -184,7 +185,7 @@ body {
 .btn-primary {
     background: linear-gradient(135deg, var(--primary-yellow), var(--dark-yellow));
     color: var(--text-dark);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-pill);
 }
 
 .btn-primary:hover {
@@ -536,7 +537,7 @@ section {
     color: var(--text-dark);
     background: linear-gradient(135deg, var(--primary-yellow), var(--dark-yellow));
     border: 2px solid transparent;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-pill);
     transition: all 0.3s ease;
 }
 
