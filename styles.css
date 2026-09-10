@@ -447,6 +447,18 @@ section {
     display: block;
 }
 
+/* Contained logo on a deep navy plate */
+.project-image-navy {
+    background: linear-gradient(135deg, #24344d, #16202f);
+}
+
+.project-image-navy img {
+    max-width: 62%;
+    max-height: 84%;
+    object-fit: contain;
+    display: block;
+}
+
 /* Contained logo on a light plate matching the artwork's own background */
 .project-image-plate {
     background: #fefefe;
